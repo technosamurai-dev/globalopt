@@ -1,0 +1,78 @@
+.footer {
+    padding: 24px 0 28px 0;
+    background-color: #25333c;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 26px;
+    }
+    &__glopt {
+        display: flex;
+        align-items: center;
+        p {
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 20px;
+        }
+    }
+    &__logo {
+        margin-right: 43px;
+    }
+    &__askcall {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__phone {
+        text-align: right;
+        margin-right: 15px;
+        font-size: 14px;
+        color: #f2f2f3;
+        a {
+            font-size: 19px;
+            font-weight: 700;
+            color: #f2f2f3;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &__copyrights {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px; 
+    }
+    &__copyright {
+        display: inline-block;
+        span {
+            margin-right: 223px;
+            opacity: 0.6;
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 300;
+        }
+        a {
+            color: $main-color;
+            font-size: 13px;
+            font-weight: 300;
+            text-decoration: underline;
+        }
+    }
+    &__creator {
+        display: inline-block;
+        vertical-align: top;
+        span {
+            margin-right: 3px;
+            opacity: 0.6;
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 300;
+        }
+        img {
+            padding-bottom: 10px;
+        }
+    }
+}

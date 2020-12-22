@@ -1,0 +1,39 @@
+.testimonials {
+    padding: 51px 0 65px 0;
+    &__box {
+        margin: 0 auto;
+        margin-top: 31px;
+        max-width: 600px;
+    }
+    &__photo {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__name {
+        text-align: center;
+        margin-top: 19px;
+        font-size: 18px;
+    }
+    &__text {
+        margin-top: 16px;
+        font-weight: 300;
+        text-align: justify;
+    }
+    .slick-prev, .slick-next {
+        position: absolute;
+        top: 18%;
+        left: 35%;
+        border: none;
+        background-color: transparent;
+        z-index: 2;
+        img {
+            width: 14px;
+            height: 47px;
+        }
+    }
+    .slick-next {
+        left: 63.5%;
+    }
+}

@@ -1,0 +1,31 @@
+.scheme {
+    padding: 51px 0 46px 0;
+    background-color: #f3f3f3;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    &__item {
+        max-width: 260px;
+    }
+    &__img {
+        img {
+            display: block;
+            margin: 35px auto 0 auto;
+        }
+    }
+    &__title {
+        margin-top: 12px;
+        color: #ec644b;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__text {
+        margin-top: 10px;
+        font-weight: 300;
+        text-align: center;
+    }
+}

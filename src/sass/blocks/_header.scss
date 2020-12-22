@@ -1,0 +1,83 @@
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header-bg.jpg") center (center/cover) no-repeat;
+    min-height: 679px;
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+    }
+    &__menu {
+        ul {
+            display: flex;
+            list-style: none;
+        }
+        &-item {
+            border-right: 1px dotted #f2f2f3;
+            padding: 0px 15px;
+            a {
+                color: #f2f2f3;
+                text-decoration: none;
+                &:hover {
+                    color: $main-color;
+                    text-decoration: underline;
+                }
+            }
+            &:last-child {
+                border-right: none;
+            }
+        }
+    }
+    &__askcall {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__phone {
+        text-align: right;
+        margin-right: 15px;
+        color: #f2f2f3;
+        a {
+            font-size: 19px;
+            font-weight: 700;
+            color: #f2f2f3;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &__info {
+        padding-top: 53px;
+        text-align: center;
+    }
+    &__slogan {
+        font-size: 24px;
+        font-weight: 300;
+        color: #e84545;
+    }
+    &__title {
+        font-size: 72px;
+        font-weight: 400;
+        color: $main-color;
+    }
+    &__subtitle {
+        font-size: 42px;
+        font-weight: 400;
+        color: #f2f2f3;
+    }
+    &__delivery-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        &_item {
+            max-width: 300px;
+            text-align: center;
+            color: #fff;
+        }
+    }
+    .modal__button {
+        margin-top: 40px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,20 @@
+.btn {
+    width: 160px;
+    height: 45px;
+    background-color: $main-color;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #f2f2f3;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 2px 2px 10px black;
+    }
+}
+
+.btn-large {
+    width: 240px;
+    height: 58px;
+}
